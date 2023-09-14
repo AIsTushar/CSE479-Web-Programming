@@ -1,0 +1,32 @@
+.sign{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 30px;
+}
+
+.primary-heading{
+    background-color: orange;
+
+    color: aliceblue;
+    height: 40px;
+    width: 100%;
+   
+}
+table{
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+}
+
+td{
+    color: yellow;
+}
+
+tr{
+    margin-bottom: 20px;
+}

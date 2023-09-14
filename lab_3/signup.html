@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign up</title>
+</head>
+<body>
+
+    <div class="primary-heading">
+        <h1>Sign Up</h1>
+    </div>
+    <div class="sign">
+       
+        <form action="#">
+
+            <table>
+                <tr>
+                    <td> <label for="fName">First Name </label> </td>
+                    <td> <input type="text" id="fName" placeholder="Enter First Name"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="lName">Last Name </label> </td>
+                    <td> <input type="text" id="lName" placeholder="Enter Last Name"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="sName">Screen Name </label> </td>
+                    <td> <input type="text" id="sName" placeholder="Enter Screen Name"> </td>
+                </tr>
+
+                    <tr>
+                        <td> <label for="DofB">Date of Birth </label></td>
+                        <td> <select name="month" id="month">
+                            <option value="Jan">January</option>
+                            <option value="Feb">February</option>
+                            <option value="Mar">March</option>
+                            <option value="Apr">April</option>
+                        </select> </td>
+
+                        <td> <select name="day" id="day">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select> </td>
+                        <td> <select name="year" id="year">
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </select> </td>
+                    </tr>
+
+                <tr>
+                    <td> <label for="sex">Gender:</label> </td>
+                    <td> 
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="male" value="male" required>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="female" value="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Country:</label> </td>
+                    <td> <select name="country" id="country" required>
+                        <option value="USA">USA</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <label for="email">Email</label> </td>
+                    <td> <input type="email" id="email" required placeholder="Enter E-mail...."> </td>
+                </tr>
+                <tr>
+                    <td> <label for="phone">Phone</label> </td>
+                    <td> <input type="text" id="phone" required placeholder="Enter Phone....."> </td>
+                </tr>
+                
+                <tr>
+                    <td> <label for="password">Password:</label> </td>
+                    <td><input id="password" type="password" required maxlength="12" minlength="7"></td>
+                </tr>
+                <tr>
+                    <td> <label for="confirmpassword">Confirm Password:</label> </td>
+                    <td><input id="conformPassword" type="password" required maxlength="12" minlength="7"></td>
+                </tr>
+                <tr>
+                    <td> &nbsp</td>
+                    <td><input type="checkbox" id="agree"> <label for="agree"> I agree to the Tems of use</label></td>
+                </tr>
+
+            </table>
+            
+        </form>
+
+    </div>
+
+
+</body>
+</html>

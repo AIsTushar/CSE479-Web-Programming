@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regi.css">
+</head>
+<body>
+    <div class="main">
+
+        <form action="">
+    
+        <table>
+            
+            <tr>
+                <td><h1 class="primaryHeading">Registration Form</h1></td>
+            </tr>
+            <tr>
+                <td> <label for="userID">User ID:</label> </td>
+                <td><input id="userID" type="text" required maxlength="12" minlength="5" ></td>
+            </tr>
+            <tr>
+                <td> <label for="password">Password:</label> </td>
+                <td><input id="password" type="password" required maxlength="12" minlength="7"></td>
+            </tr>
+            <tr>
+                <td> <label for="name" >Name:</label> </td>
+                <td><input id="name" type="text" required  pattern="[A-Za-z]"></td>
+            </tr>
+            <tr>
+                <td> <label for="address" >Address:</label> </td>
+                <td><input id="address" type="text" required ></td>
+            </tr>
+            <tr>
+                <td> <label>Country:</label> </td>
+                <td> <select name="country" id="country" required>
+                    <option value="">(Please select a country)</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td> <label for="zipcode">ZIP Code</label> </td>
+                <td> <input type="text" id="zipcode" required> </td>
+            </tr>
+            <tr>
+                <td> <label for="email">Email</label> </td>
+                <td> <input type="email" id="email" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="sex">Sex:</label> </td>
+                <td> 
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="male" value="male" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="female" value="female">
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="language">Language:</label> </td>
+                <td> 
+                
+                    <label for="english">English</label>
+                    <input type="checkbox" id="eng" name="english" value="english" required checked>
+                    <label for="noneng">Non English</label>
+                    <input type="checkbox" id="nonEng" name="Non English" value="Non english">
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="about">About:</label> </td>
+                <td rowspan="5"> <textarea name="about" id="about" rows="5"></textarea> </td>
+
+            </tr>
+            <tr>
+                <td rowspan="5">
+                    &nbsp;
+                </td>
+            </tr>
+       
+        </table>
+        <div class="btn_container">
+            <button type="submit" class="sub_btn">Submit</button>
+        </div>
+        
+
+        </form>
+  
+        
+    </div>
+</body>
+</html>

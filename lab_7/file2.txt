@@ -1,0 +1,3 @@
+Jaccard similarity is a measure of how similar two sets are.
+It is commonly used in data mining, text analysis, and other fields.
+This is another sample text for testing the Jaccard similarity calculation.

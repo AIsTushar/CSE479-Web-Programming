@@ -1,0 +1,3 @@
+This is a sample text for testing Jaccard similarity.
+Please note that this is just a sample text.
+You can replace this content with your own text for testing purposes.

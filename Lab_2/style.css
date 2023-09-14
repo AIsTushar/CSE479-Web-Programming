@@ -1,0 +1,74 @@
+body {
+  margin-bottom: 60px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.problemOne {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pronblemOneTable {
+  align-items: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.problemTwo {
+  margin-top: 60px;
+}
+
+.problemThree {
+  margin-top: 60px;
+}
+
+.problemFour {
+  margin-top: 60px;
+}
+
+.tableFour {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tableFive,
+td,
+th {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+.tableSix {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tableNine {
+  height: 300px;
+  width: 600px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.tableSeven {
+  border-collapse: collapse;
+  border: none;
+}
+.tableSeven td,
+.tableSeven th {
+  border-collapse: collapse;
+  border: none;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}

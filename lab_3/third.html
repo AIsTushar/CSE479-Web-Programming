@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem 3</title>
+    <style>
+      .triangle-down {
+        width: 0;
+        height: 0;
+        margin-top: 4px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 10px solid black;
+      }
+      label {
+        font-weight: bold;
+        margin-right: 90px;
+      }
+      tr,
+      td {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <table
+        style="margin: 0 auto 0 auto; border: solid black"
+        cellpadding="10"
+        cellspacing="0"
+      >
+        <tr style="background-color: #a6d1c0">
+          <td
+            style="color: black; font-weight: bolder; font-size: larger"
+            colspan="2"
+          >
+            Workshop Registration
+          </td>
+          <td align="left">
+            <div style="display: flex">
+              <div style="margin-right: 5px">More Actions</div>
+              <div class="triangle-down"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table>
+              <tr align="left">
+                <td colspan="2" ;>
+                  <a href="#" style="color: black"
+                    >Register now while seats are available!</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">First Name*</label></td>
+                <td><input type="text" name="" id="" required /></td>
+              </tr>
+              <tr>
+                <td><label for="">Last Name *</label></td>
+                <td><input type="text" name="" id="" required /></td>
+              </tr>
+              <tr>
+                <td><label for="">Company/Institution *</label></td>
+                <td><input type="text" name="" id="" required /></td>
+              </tr>
+              <tr>
+                <td><label for="">Address *</label></td>
+                <td>
+                  <textarea
+                    style="height: 100px; width: 170px"
+                    id=""
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">City</label></td>
+                <td><input type="text" name="" id="" /></td>
+              </tr>
+              <tr>
+                <td><label for="">State/Provinance/Region</label></td>
+                <td>
+                  <select style="width: 177px" name="" id="">
+                    <option value="">-Select</option>
+                    <option value="Dhk">Dhaka</option>
+                    <option value="Syl">Sylhet</option>
+                    <option value="Ctg">Chittagong</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Jsr">Jessore</option>
+                    <option value="Comilla">Comilla</option>
+                    <option value="Barisal">Barisal</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">Country</label></td>
+                <td>
+                  <select style="width: 177px" name="" id="">
+                    <option value="">-Select</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="ENG">England</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="BraZil">Brazil</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">Email *</label></td>
+                <td><input type="text" name="" id="" required /></td>
+              </tr>
+              <tr>
+                <td><label for="">Phone *</label></td>
+                <td>
+                  <input type="text" pattern="[0-9]+" name="" id="" required />
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr align="left">
+                <td colspan="2" ;>
+                  <p style="color: black"><u>Lunch</u></p>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">Meal Preference</label></td>
+                <td>
+                  <select style="width: 177px" name="" id="">
+                    <option value="">-Select</option>
+                    <option value="Veg">Vegitarian</option>
+                    <option value="nVeg">Non Vegitarian</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr align="left">
+                <td colspan="2" ;>
+                  <p style="color: black"><u>Payment Details</u></p>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">Payment Mode</label></td>
+                <td><input type="checkbox" name="Checkbox" id="" /> Cash</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="checkbox" name="Checkbox" id="" /> Checque</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input type="checkbox" name="Checkbox" id="" /> Demand Draft
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">DD/Cheque No. </label></td>
+                <td><input type="text" pattern="[0-9]+" name="" id="" /></td>
+              </tr>
+              <tr>
+                <td><label for="">Drawn On (Bank Name) </label></td>
+                <td><input type="text" name="" id="" /></td>
+              </tr>
+              <tr>
+                <td><label for="">Payable at </label></td>
+                <td><input type="text" name="" id="" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr style="background-color: #eaeaea">
+          <td colspan="3" align="center">
+            <input
+              style="
+                background-color: #7cac9c; /* Green */
+                border: none;
+                color: white;
+                padding: 10px 14px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px;
+              "
+              type="Submit"
+            />
+            <input
+              style="
+                background-color: #7cac9c; /* Green */
+                border: none;
+                color: white;
+                padding: 10px 14px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px;
+              "
+              type="reset"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
